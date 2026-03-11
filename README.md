@@ -190,30 +190,6 @@ Send a list of customer objects. Returns individual scores + aggregate summary.
 
 ---
 
-## 💼 Interview Talking Points
-
-### For Arteris / Ogury internship interviews:
-
-1. **"I built a full ML pipeline for CRM churn prediction"**
-   → Show `run_pipeline.py` — one command, 7 steps, production-ready
-
-2. **"I used MLflow for experiment tracking and model registry"**
-   → Show MLflow UI with 4 model runs compared side by side
-
-3. **"I deployed the model as a REST API and a CRM dashboard"**
-   → Show `/docs` Swagger UI + Streamlit dashboard
-
-4. **"I engineered CRM-specific features based on business logic"**
-   → Explain `HighRiskCombo`, `ServiceBundleScore`, `ContractRiskScore`
-
-5. **"I used SHAP to explain model predictions to business stakeholders"**
-   → Show SHAP beeswarm plot — interpreting black-box model for non-technical users
-
-6. **"I wrote unit tests to validate every pipeline stage"**
-   → Show pytest output
-
----
-
 ## 📚 Dataset Citation
 
 IBM Telco Customer Churn Dataset  
