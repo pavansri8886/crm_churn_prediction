@@ -1,4 +1,4 @@
-# CRM Churn Prediction — Industry-Grade ML Project
+# CRM Churn Prediction — ML Project
 
 > **MSc Data Management | ML Deployment Course | Portfolio Project**
 > Predicting customer churn using CRM behavioral data, with full MLOps deployment.
