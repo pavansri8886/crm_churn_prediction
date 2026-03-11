@@ -1,0 +1,32 @@
+# --- Environments ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- MLflow & Tracking ---
+# We ignore the local DB and runs to keep the repo light
+mlruns/
+mlflow.db
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Data & Results (Explicitly Allowed) ---
+# By default, we want to keep these, but ignore large raw files if necessary
+# If you have specific large datasets (e.g., >50MB), add them specifically:
+# data/raw_massive_file.csv
+
+# --- Results & Plots ---
+# These are kept as per your request
+!logs/plots/
+!data/
+!dashboard/
